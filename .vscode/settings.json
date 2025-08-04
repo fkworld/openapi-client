@@ -1,0 +1,9 @@
+{
+  "cSpell.ignorePaths": [".git", ".vscode", "node_modules", "pnpm-lock.yaml"],
+  "cSpell.words": ["commitlint", "esbuild", "fkworld"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
