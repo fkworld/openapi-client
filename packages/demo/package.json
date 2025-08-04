@@ -1,0 +1,22 @@
+{
+  "name": "@fkworld/api-client-demo",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/main.ts",
+  "scripts": {
+    "gen-apis": "tsx ./scripts/gen-apis",
+    "test:types": "tsc",
+    "test:lib": "vitest run --coverage --typecheck"
+  },
+  "dependencies": {
+    "@fkworld/api-client": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "chalk": "^5.5.0",
+    "lodash-es": "^4.17.21",
+    "openapi-typescript": "^5.4.2",
+    "tsx": "^4.20.3"
+  }
+}
